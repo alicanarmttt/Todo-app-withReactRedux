@@ -1,0 +1,32 @@
+.flex-column-todo {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(29, 188, 24, 0.545);
+  border-radius: 10px;
+  margin: 10px;
+}
+.flex-column-todo .input {
+  width: 380px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  outline: none;
+  background-color: transparent;
+  transition: 0.4s;
+  font-size: large;
+}
+
+.rewrite {
+  display: flex;
+  right: 10px;
+  bottom: 10px;
+  gap: 10px;
+}
+
+.rewrite div {
+  cursor: pointer; /* İkonları tıklanabilir yapar */
+  font-size: 20px; /* İkonların boyutunu ayarlar */
+}

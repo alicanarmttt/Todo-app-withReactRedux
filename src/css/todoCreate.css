@@ -1,0 +1,36 @@
+.flex-column-create {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgba(221, 161, 30, 0.923);
+  border-radius: 10px;
+}
+
+.input {
+  width: 380px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  outline: none;
+  background-color: transparent;
+  transition: 0.4s;
+  font-size: large;
+  height: 50px;
+}
+.input:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn {
+  background-color: green;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: green;
+  border-color: green;
+}

@@ -1,0 +1,12 @@
+.cerceve {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgba(221, 161, 30, 0.923);
+  border-radius: 10px;
+  min-height: 100px; /* Başlangıç boyutu */
+  max-height: 400px; /* Maksimum yüksekliği */
+  overflow-y: auto; /* Maksimum yüksekliğe ulaşıldığında scroll-bar ekle */
+  margin-left: 100px;
+}
